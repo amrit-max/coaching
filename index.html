@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pankaj Coaching Centre</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <img src="src/logo.jpg" alt="Pankaj Coaching Centre Logo" style="width:60px;height:60px;border-radius:50%;object-fit:cover;border:2px solid var(--accent);">
+        <span>Pankaj Coaching Centre</span>
+      </div>
+      <nav>
+        <div class="hamburger" id="hamburger-menu" style="display:none;cursor:pointer;">
+          <span style="display:block;width:25px;height:3px;background:#fff;margin:5px 0;"></span>
+          <span style="display:block;width:25px;height:3px;background:#fff;margin:5px 0;"></span>
+          <span style="display:block;width:25px;height:3px;background:#fff;margin:5px 0;"></span>
+        </div>
+        <ul id="navbar-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#results">Past Results</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#articles">Articles</a></li>
+          <li><a href="tel:+919314213544" class="cta-btn">Call Now</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p><strong>Empowering ambitious students to excel in Board Exams, build strong foundations from Class 4 to 12, succeed in competitive exams, and master essential computer skills. Through academic excellence, personalized guidance, and unwavering support, we nurture every learner's potential and help transform dreams into reality.</strong></p>
+          <a href="tel:+919314213544" class="cta-btn">Enroll Today</a>
+        </div>
+        <div class="hero-image">
+        </div>
+      </div>
+    </section>
+
+    <!-- Full AC Library Section -->
+    <section class="facility-section" style="background: var(--white); padding: 1.5rem 0;">
+      <div class="container" style="text-align:center;">
+        <h2>Full AC Library</h2>
+        <p>✅ Our institute offers a fully air-conditioned library for a comfortable and focused study environment.</p>
+      </div>
+    </section>
+
+    <!-- Office Timings Section -->
+    <section class="timings-section" style="background: var(--gray); padding: 1.5rem 0;">
+      <div class="container" style="text-align:center;">
+        <h2>Office Timings</h2>
+        <p>⏰ Morning 7 AM to Evening 8 PM</p>
+      </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses-section">
+      <div class="container">
+        <h2>Our Courses</h2>
+        <div class="courses-grid">
+          <div class="course-card">
+            <h3>Class 4–8 Foundation</h3>
+            <p>Strong foundation in Science & Maths for school and competitive exams.</p>
+            <!-- <span>1–2 Years</span> -->
+          </div>
+          <div class="course-card">
+            <h3>Class 9–10 Foundation</h3>
+            <p>Strong foundation in Science & Maths for school and competitive exams.</p>
+            <!-- <span>1–2 Years</span> -->
+          </div>
+          <div class="course-card">
+            <h3>Class 11–12 </h3>
+            <p>Board exam preparation for Science streams with in-depth concept clarity.Containing Arts,Commerce,Science</p>
+            <!-- <span>2 Years</span> -->
+          </div>
+          <div class="course-card">
+            <h3>All Computer Courses</h3>
+            <p>Rscit,tally,advance-excell,basic computer-tally gst,Typing all courses available.</p>
+            <!-- <span>2 Years</span> -->
+          </div>
+          <div class="course-card">
+            <h3>Competition Courses</h3>
+            <p>Patwar, and foundation course
+
+LDC, Bank, SSC, Police,Steno, Army
+
+State level & jobs
+
+Admission & coaching
+
+B.A., B.Com., foundation courses & analysis
+
+</p>
+            <!-- <span>2 Years</span> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Past Results Section -->
+    <section id="results" class="results-section">
+      <div class="container">
+        <h2>Our Top Performers</h2>
+        <div class="results-grid">
+          <div class="student-card">
+            <img src="src/hiram.png" alt="Student Photo">
+            <div class="student-info">
+              <h4>Hiram</h4>
+              <p>12th Arts-97%</p>
+            </div>
+          </div>
+          <div class="student-card">
+            <img src="src/padam.png" alt="Student Photo">
+            <div class="student-info">
+              <h4>Padam</h4>
+              <p>12th Arts-94%</p>
+            </div>
+          </div>
+          <div class="student-card">
+            <img src="src/anupriya.png" alt="Student Photo">
+            <div class="student-info">
+              <h4>Anupriya</h4>
+              <p>12th Arts-94.8%</p>
+            </div>
+          </div>
+          <div class="student-card">
+            <img src="src/ananya.png" alt="Student Photo">
+            <div class="student-info">
+              <h4>Ananya</h4>
+              <p>10th 93%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+      <div class="container">
+        <h2>Gallery</h2>
+        <div class="gallery-grid" id="galleryGrid">
+          <img src="src/i5.jpg" alt="Gallery Image 1">
+          <img src="src/i7.jpg" alt="Gallery Image 2">
+          <img src="src/i8.jpg" alt="Gallery Image 3">
+          <img src="src/i9.jpg" alt="Gallery Image 4">
+        </div>
+        <div class="gallery-actions">
+          <a href="gallery.html" class="cta-btn">View More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Articles/Blog Section -->
+    <section id="articles" class="articles-section">
+      <div class="container">
+        <h2>Featured Articles</h2>
+        <div class="articles-grid">
+          <div class="article-card">
+            <h4>Top 10 Tips for Board Exam Preparation</h4>
+            <p>Preparing for board exams requires a focused and disciplined approach. Start by thoroughly understanding your syllabus and exam pattern. Build a strong foundation in each subject by following your textbooks and class notes carefully. Practice writing answers neatly and within time limits to improve your presentation skills. Solve sample papers and previous years' question papers to get familiar with the type of questions asked. Create a realistic study timetable and stick to it consistently. Make clear and concise revision notes for each chapter to help during the final revision days. Avoid last-minute studying and ensure you revise regularly. Take proper breaks, eat healthy, and get enough sleep to keep your mind fresh. Discuss doubts with teachers or classmates without hesitation. Finally, stay confident and positive — a calm mind helps you perform your best in exams.</p>
+            <!-- <a href="#" class="read-more">Read More</a> -->
+          </div>
+          <div class="article-card">
+            <h4>Staying Motivated During Exam Season</h4>
+            <p>Exam season can be stressful, but staying motivated is essential for success. Set realistic goals and break your study sessions into manageable chunks. Celebrate small achievements to keep your spirits high. Surround yourself with positive influences and avoid negative self-talk. Practice mindfulness or meditation to manage stress. Take regular breaks, eat nutritious food, and get enough sleep. Remember, setbacks are part of the journey—learn from them and move forward. Stay connected with friends and family for emotional support, and visualize your success to keep your motivation strong throughout the exam season.</p>
+            <!-- <a href="#" class="read-more">Read More</a> -->
+          </div>
+          <div class="article-card">
+            <h4>Time Management Tips for Board Exam Students</h4>
+            <p>Managing your time well is one of the most important keys to success in board exams. Start by making a practical and balanced study schedule that covers all subjects. Divide your day into dedicated time blocks for each subject and include short breaks to keep your mind fresh. Give extra time to subjects or topics that you find challenging.
+
+Instead of long, tiring study sessions, study in focused intervals (for example, 50 minutes of study followed by a 10-minute break). This helps improve concentration and prevents fatigue.
+
+Set clear daily and weekly goals, like completing a chapter or solving a certain number of sample papers. Regularly review your progress and adjust your schedule if needed.
+
+During study time, keep your phone and social media away to avoid distractions. Use early mornings or quiet times of the day for difficult subjects when your mind is most active.
+
+</p>
+            <!-- <a href="#" class="read-more">Read More</a> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section (Footer CTA) -->
+    <section id="contact" class="contact-section">
+      <div class="container contact-container">
+        <div class="contact-info">
+          <h3>Contact Us</h3>
+          <p><i class="fa fa-map-marker-alt"></i> Near, 97-99 2nd Floor N M C Complex, Ram Nagar Shopping Center, Kanwatia Cir, Shastri Nagar, Jaipur, Rajasthan 302016</p>
+          <p><i class="fa fa-phone"></i> +91 9314213544</p>
+          <p><i class="fa fa-phone"></i> +91 7820803060</p>
+          <p><i class="fa fa-phone"></i> +91 9883049020</p>
+          <p><i class="fa fa-phone"></i> 0141- 4028917</p>
+          <p><i class="fa fa-envelope"></i> pankajcoaching44@gmail.com</p>
+          <div class="social-links">
+            
+            <a href="https://www.youtube.com/@pcccochingcenter6633"><i class="fab fa-youtube"></i></a>
+
+            <a href="https://www.instagram.com/pcc8582/"><i class="fab fa-instagram"></i></a>
+            <!-- <a href="#"><i class="fab fa-linkedin-in"></i></a> -->
+          </div>
+        </div>
+        <div class="contact-map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2551.6948002469485!2d75.79862419999999!3d26.947029500000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db3a07daecc6b%3A0x8de2b742cef37110!2sPCC%20Pankaj%20Coaching%20Center!5e1!3m2!1sen!2sin!4v1751547222390!5m2!1sen!2sin" width="100%" height="350" style="border:0; border-radius:14px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-container">
+      <span>&copy; 2025 Pankaj Coaching Centre. All rights reserved.</span>
+      
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> 
